@@ -1,0 +1,137 @@
+/* styles.css */
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  background-color: #1f1f1f;
+  color: #e0e0e0;
+  font-family: "Press Start 2P", cursive;
+  text-align: center;
+}
+
+/* Header Styles */
+.header {
+  margin-bottom: 20px;
+}
+
+.again {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff5252;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 5px;
+  transition: all 0.4s;
+}
+
+.again:hover {
+  background-color: #ff1744;
+  transform: scale(1.05);
+}
+
+.again:active {
+  transform: translateY(5px);
+}
+
+.header p {
+  font-size: 18px;
+  color: #e0e0e0;
+}
+
+/* Main Heading Styles */
+.main-heading {
+  font-size: 48px;
+  color: #ffeb3b;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/* Target Styles */
+.target {
+  font-size: 72px;
+  padding: 20px;
+  background-color: #ffeb3b;
+  color: #1f1f1f;
+  margin-bottom: 20px;
+}
+
+/* Container Styles */
+.container {
+  margin-bottom: 40px;
+}
+
+.container hr {
+  border: none;
+  border-top: 2px solid #ff5252;
+  margin: 20px auto;
+}
+
+/* User Input Styles */
+.user_input {
+  margin-bottom: 20px;
+}
+
+.guess {
+  padding: 10px 20px;
+  font-size: 24px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffeb3b;
+  color: #1f1f1f;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.guess:hover {
+  transform: scale(1.02);
+}
+
+.check {
+  padding: 10px 20px;
+  font-size: 24px;
+  background-color: #ff5252;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 5px;
+  transition: all 0.4s;
+}
+
+.check:hover {
+  background-color: #ff1744;
+  transform: scale(1.05);
+}
+
+.check:active {
+  transform: translateY(5px);
+}
+
+/* Scores Styles */
+.scores {
+  margin-top: 40px;
+}
+
+.message {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.score,
+.highscore {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Custom Font Import */
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
